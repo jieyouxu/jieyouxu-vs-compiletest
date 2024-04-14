@@ -1,7 +1,7 @@
 # jieyouxu vs compiletest
 
 This repo records some of my adventures in ~~fighting~~ reworking [`compiletest`]. Whether the
-rework ultimately is sucessful or not is not particularly important, what's important are the
+rework ultimately is successful or not is not particularly important, what's important are the
 lessons we learned and the friends we made along the way.
 
 [`compiletest`]: https://github.com/rust-lang/rust/tree/master/src/tools/compiletest
