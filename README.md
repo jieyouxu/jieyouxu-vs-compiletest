@@ -12,7 +12,6 @@ lessons we learned and the friends we made along the way.
 
 ## Acknowledgements
 
-This repo uses [`mdBook`], with CI and theme setup from [zjp-CN/mdbook-template].
+This repo uses [`mdBook`].
 
 [`mdBook`]: https://github.com/rust-lang/mdBook
-[zjp-CN/mdbook-template]: https://github.com/zjp-CN/mdbook-template
