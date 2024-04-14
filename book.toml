@@ -5,26 +5,10 @@ multilingual = false
 src = "src"
 title = "jieyouxu vs compiletest"
 
-[preprocessor.theme]
-pagetoc = true
-sidebar-width = "250px"
-
 [preprocessor.admonish]
 command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
 [output.html]
-default-theme = "ayu"
-git-repository-url = ""
-additional-css = ["theme/pagetoc.css", "./mdbook-admonish.css"]
-additional-js = ["theme/pagetoc.js"]
-
-[output.html.fold]
-enable = false
-level = 1
-
-[output.html.playground]
-editable = true
-
-[output.html.print]
-enable = false
+default-theme = "light"
+git-repository-url = "https://github.com/jieyouxu/jieyouxu-vs-compiletest"
