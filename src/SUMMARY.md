@@ -1,4 +1,3 @@
 # Summary
 
-[Preface](./test.md)
-
+[Preface](preface.md)
