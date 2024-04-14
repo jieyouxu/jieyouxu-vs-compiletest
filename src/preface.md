@@ -2,22 +2,17 @@
 
 This little book records my adventure in ~~fighting~~ reworking [`compiletest`].
 
-```admonish success title="Kudos to people who have contributed to compiletest"
 This little book will likely have many rants and complaints. But these are not directed to any
 particular contributor. [`compiletest`] mostly organically grew over the years and it's long past
-due for some tidy ups and reworks. I hope the reworks will make [`compiletest`] easier to
-maintain, less painful to debug, and easier to add new test modes and test suites if deemed
-desirable.
+due for some tidy ups and reworks. I hope the reworks will make [`compiletest`] easier to maintain,
+less painful to debug, and easier to add new test modes and test suites if deemed desirable.
 
 [`compiletest`] has done exceptionally well in helping the development of [`rustc`] and friends.
 Thanks to everyone who contributed to [`compiletest`] to help the development of [`rustc`] and
 friends.
-```
 
-```admonish warning title="Content Warning: Here Be Dragons"
-This little book will contain my rants, which may include vulgar language. It's not intended to be
-a professional piece of technical writing.
-```
+**This little book will contain my rants, which may include vulgar language. It's not intended to be
+a professional piece of technical writing.**
 
 ## Context
 
