@@ -19,7 +19,7 @@ better make sure the test harness is reliable, otherwise the compiler and friend
 jenga tower that will collapse if you pull out the "compiletest" piece.
 
 <div align="center">
-  <img src="../compiletest.png" width="30%" />
+  <img src="./preface/compiletest.png" width="30%" />
 
   Image edited from <https://xkcd.com/2347/>
 </div>
