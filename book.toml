@@ -9,10 +9,14 @@ title = "jieyouxu vs compiletest"
 pagetoc = true
 sidebar-width = "250px"
 
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
 [output.html]
 default-theme = "ayu"
 git-repository-url = ""
-additional-css = ["theme/pagetoc.css"]
+additional-css = ["theme/pagetoc.css", "./mdbook-admonish.css"]
 additional-js = ["theme/pagetoc.js"]
 
 [output.html.fold]
