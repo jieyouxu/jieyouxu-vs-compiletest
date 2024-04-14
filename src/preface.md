@@ -1,17 +1,17 @@
 # Preface
 
-This little book records my adventure in reworking [`compiletest`]. 
+This little book records my adventure in reworking [`compiletest`].
 
 ## Context
 
-[`compiletest`] is the main test harness of the Rust compiler (see the [Compiletest chapter] in
-the dev-guide). Over the years, it has seen many additions and modifications that is mostly
-organically grown, which makes it a pain to debug and maintain.
+[`compiletest`] is the main test harness of the Rust compiler (see the [Compiletest chapter] in the
+dev-guide). Over the years, it has seen many additions and modifications that is mostly organically
+grown, which makes it a pain to debug and maintain.
 
-[compiler-team MCP 536][mcp-536] was accepted to rewrite compiletest out of tree as [`ui_test`].
-But there's still tons of work to be done, and there isn't a clear picture of how to completely
-replace [`compiletest`] with [`ui_test`] -- even the MVP goal of using [`ui_test`] to run the
-["ui" test suite][ui-test-suite] is highly non-trivial.
+[compiler-team MCP 536][mcp-536] was accepted to rewrite compiletest out of tree as [`ui_test`]. But
+there's still tons of work to be done, and there isn't a clear picture of how to completely replace
+[`compiletest`] with [`ui_test`] -- even the MVP goal of using [`ui_test`] to run the ["ui" test
+suite][ui-test-suite] is highly non-trivial.
 
 I expect the rewrite to take multiple years. In the meantime, [`rustc`] and friends still need to
 rely on [`compiletest`] to have some guardrails for making changes and minimizing regressions. We
